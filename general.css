@@ -1,0 +1,47 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: red;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    background-color: bisque;
+}
+
+.main-sectors {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 128px);
+    box-sizing: border-box;
+}
+
+.mlist {
+    background-color: lightpink;
+    flex: 1;
+    text-align: left;
+}
+
+.middlesearch {
+    background-color: lightgreen;
+    flex: 3;
+    text-align: center;
+}
+
+.plist {
+    background-color: lightblue;
+    flex: 1;
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    background-color: bisque;
+}
